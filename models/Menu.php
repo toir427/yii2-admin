@@ -1,9 +1,9 @@
 <?php
 
-namespace mdm\admin\models;
+namespace toir427\admin\models;
 
 use Yii;
-use mdm\admin\components\Configs;
+use toir427\admin\components\Configs;
 use yii\db\Query;
 
 /**

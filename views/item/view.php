@@ -1,14 +1,14 @@
 <?php
 
-use mdm\admin\AnimateAsset;
+use toir427\admin\AnimateAsset;
 use yii\helpers\Html;
 use yii\helpers\Json;
 use yii\web\YiiAsset;
 use yii\widgets\DetailView;
 
 /* @var $this yii\web\View */
-/* @var $model mdm\admin\models\AuthItem */
-/* @var $context mdm\admin\components\ItemController */
+/* @var $model toir427\admin\models\AuthItem */
+/* @var $context toir427\admin\components\ItemController */
 
 $context = $this->context;
 $labels = $context->labels();

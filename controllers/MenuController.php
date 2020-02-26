@@ -1,14 +1,14 @@
 <?php
 
-namespace mdm\admin\controllers;
+namespace toir427\admin\controllers;
 
 use Yii;
-use mdm\admin\models\Menu;
-use mdm\admin\models\searchs\Menu as MenuSearch;
+use toir427\admin\models\Menu;
+use toir427\admin\models\searchs\Menu as MenuSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
-use mdm\admin\components\Helper;
+use toir427\admin\components\Helper;
 
 /**
  * MenuController implements the CRUD actions for Menu model.

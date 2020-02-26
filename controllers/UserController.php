@@ -1,15 +1,15 @@
 <?php
 
-namespace mdm\admin\controllers;
+namespace toir427\admin\controllers;
 
-use mdm\admin\components\UserStatus;
-use mdm\admin\models\form\ChangePassword;
-use mdm\admin\models\form\Login;
-use mdm\admin\models\form\PasswordResetRequest;
-use mdm\admin\models\form\ResetPassword;
-use mdm\admin\models\form\Signup;
-use mdm\admin\models\searchs\User as UserSearch;
-use mdm\admin\models\User;
+use toir427\admin\components\UserStatus;
+use toir427\admin\models\form\ChangePassword;
+use toir427\admin\models\form\Login;
+use toir427\admin\models\form\PasswordResetRequest;
+use toir427\admin\models\form\ResetPassword;
+use toir427\admin\models\form\Signup;
+use toir427\admin\models\searchs\User as UserSearch;
+use toir427\admin\models\User;
 use Yii;
 use yii\base\InvalidParamException;
 use yii\base\UserException;

@@ -1,10 +1,10 @@
 <?php
 
-namespace mdm\admin\models;
+namespace toir427\admin\models;
 
 use Yii;
 use yii\rbac\Rule;
-use mdm\admin\components\Configs;
+use toir427\admin\components\Configs;
 
 /**
  * BizRule

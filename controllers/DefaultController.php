@@ -1,6 +1,6 @@
 <?php
 
-namespace mdm\admin\controllers;
+namespace toir427\admin\controllers;
 
 use Yii;
 

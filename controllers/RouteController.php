@@ -1,9 +1,9 @@
 <?php
 
-namespace mdm\admin\controllers;
+namespace toir427\admin\controllers;
 
 use Yii;
-use mdm\admin\models\Route;
+use toir427\admin\models\Route;
 use yii\web\Controller;
 use yii\filters\VerbFilter;
 

@@ -1,9 +1,9 @@
 <?php
 
-namespace mdm\admin\models;
+namespace toir427\admin\models;
 
-use mdm\admin\components\Configs;
-use mdm\admin\components\UserStatus;
+use toir427\admin\components\Configs;
+use toir427\admin\components\UserStatus;
 use Yii;
 use yii\base\NotSupportedException;
 use yii\behaviors\TimestampBehavior;

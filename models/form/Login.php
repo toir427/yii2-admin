@@ -1,10 +1,10 @@
 <?php
 
-namespace mdm\admin\models\form;
+namespace toir427\admin\models\form;
 
 use Yii;
 use yii\base\Model;
-use mdm\admin\models\User;
+use toir427\admin\models\User;
 
 /**
  * Login form
@@ -71,7 +71,7 @@ class Login extends Model
     public function getUser()
     {
         if ($this->_user === false) {
-            $class = Yii::$app->getUser()->identityClass ? : 'mdm\admin\models\User';
+            $class = Yii::$app->getUser()->identityClass ? : 'toir427\admin\models\User';
             $this->_user = $class::findByUsername($this->username);
         }
 

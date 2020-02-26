@@ -1,9 +1,9 @@
 <?php
 
-namespace mdm\admin\models;
+namespace toir427\admin\models;
 
-use mdm\admin\components\Configs;
-use mdm\admin\components\Helper;
+use toir427\admin\components\Configs;
+use toir427\admin\components\Helper;
 use Yii;
 use yii\base\Model;
 use yii\helpers\Json;
