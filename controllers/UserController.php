@@ -48,15 +48,7 @@ class UserController extends Controller
      */
     public function beforeAction($action)
     {
-        if (parent::beforeAction($action)) {
-            if (Yii::$app->has('mailer') && ($mailer = Yii::$app->getMailer()) instanceof BaseMailer) {
-                /* @var $mailer BaseMailer */
-                $this->_oldMailPath = $mailer->getViewPath();
-                $mailer->setViewPath('@mdm/admin/mail');
-            }
-            return true;
-        }
-        return false;
+        return true;
     }
 
     /**
