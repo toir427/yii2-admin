@@ -7,7 +7,7 @@ Once the extension is installed, simply modify your application configuration as
 return [
     'modules' => [
         'admin' => [
-            'class' => 'mdm\admin\Module',
+            'class' => 'toir427\admin\Module',
             ...
         ]
         ...
@@ -20,7 +20,7 @@ return [
         ]
     ],
     'as access' => [
-        'class' => 'mdm\admin\components\AccessControl',
+        'class' => 'toir427\admin\components\AccessControl',
         'allowActions' => [
             'site/*',
             'admin/*',
@@ -49,7 +49,7 @@ http://localhost/path/to/index.php?r=admin/user
 
 To use the menu manager (optional), execute the migration here:
 ```
-yii migrate --migrationPath=@mdm/admin/migrations
+yii migrate --migrationPath=@toir427/admin/migrations
 ```
 
 If you use database (class 'yii\rbac\DbManager') to save rbac data, execute the migration here:
@@ -69,7 +69,7 @@ To do that, change them via `controllerMap` property. For example:
             ...
             'controllerMap' => [
                  'assignment' => [
-                    'class' => 'mdm\admin\controllers\AssignmentController',
+                    'class' => 'toir427\admin\controllers\AssignmentController',
                     /* 'userClassName' => 'app\models\User', */
                     'idField' => 'user_id',
                     'usernameField' => 'username',

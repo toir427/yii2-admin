@@ -1,11 +1,11 @@
 <?php
 
-namespace mdm\admin\models;
+namespace toir427\admin\models;
 
 use Exception;
-use mdm\admin\components\Configs;
-use mdm\admin\components\Helper;
-use mdm\admin\components\RouteRule;
+use toir427\admin\components\Configs;
+use toir427\admin\components\Helper;
+use toir427\admin\components\RouteRule;
 use Yii;
 use yii\caching\TagDependency;
 use yii\helpers\VarDumper;
@@ -16,7 +16,7 @@ use yii\helpers\VarDumper;
  * @author Misbahul D Munir <misbahuldmunir@gmail.com>
  * @since 1.0
  */
-class Route extends \mdm\admin\BaseObject
+class Route extends \toir427\admin\BaseObject
 {
     const CACHE_TAG = 'mdm.admin.route';
 

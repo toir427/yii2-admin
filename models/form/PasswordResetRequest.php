@@ -1,8 +1,8 @@
 <?php
-namespace mdm\admin\models\form;
+namespace toir427\admin\models\form;
 
-use mdm\admin\components\UserStatus;
-use mdm\admin\models\User;
+use toir427\admin\components\UserStatus;
+use toir427\admin\models\User;
 use Yii;
 use yii\base\Model;
 
@@ -18,7 +18,7 @@ class PasswordResetRequest extends Model
      */
     public function rules()
     {
-        $class = Yii::$app->getUser()->identityClass ? : 'mdm\admin\models\User';
+        $class = Yii::$app->getUser()->identityClass ? : 'toir427\admin\models\User';
         return [
             ['email', 'filter', 'filter' => 'trim'],
             ['email', 'required'],
@@ -39,7 +39,7 @@ class PasswordResetRequest extends Model
     public function sendEmail()
     {
         /* @var $user User */
-        $class = Yii::$app->getUser()->identityClass ? : 'mdm\admin\models\User';
+        $class = Yii::$app->getUser()->identityClass ? : 'toir427\admin\models\User';
         $user = $class::findOne([
             'status' => UserStatus::ACTIVE,
             'email' => $this->email,

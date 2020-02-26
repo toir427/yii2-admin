@@ -1,13 +1,13 @@
 <?php
 
-namespace mdm\admin\models\searchs;
+namespace toir427\admin\models\searchs;
 
 use Yii;
 use yii\base\Model;
 use yii\data\ArrayDataProvider;
-use mdm\admin\models\BizRule as MBizRule;
-use mdm\admin\components\RouteRule;
-use mdm\admin\components\Configs;
+use toir427\admin\models\BizRule as MBizRule;
+use toir427\admin\components\RouteRule;
+use toir427\admin\components\Configs;
 
 /**
  * Description of BizRule

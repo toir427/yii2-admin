@@ -1,9 +1,9 @@
 <?php
 
-namespace mdm\admin\models;
+namespace toir427\admin\models;
 
-use mdm\admin\components\Configs;
-use mdm\admin\components\Helper;
+use toir427\admin\components\Configs;
+use toir427\admin\components\Helper;
 use Yii;
 
 /**
@@ -12,7 +12,7 @@ use Yii;
  * @author Misbahul D Munir <misbahuldmunir@gmail.com>
  * @since 2.5
  */
-class Assignment extends \mdm\admin\BaseObject
+class Assignment extends \toir427\admin\BaseObject
 {
     /**
      * @var integer User id
