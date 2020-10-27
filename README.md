@@ -12,6 +12,10 @@ GUI manager for RABC (Role Base Access Control) Yii2. Easy to manage authorizati
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/toir427/yii2-admin/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/toir427/yii2-admin/?branch=master)
 [![Code Climate](https://img.shields.io/codeclimate/github/toir427/yii2-admin.svg)](https://codeclimate.com/github/toir427/yii2-admin)
 
+Credits
+------------
+This extension has been picked up from [mdmsoft's yii2-admin](https://github.com/mdmsoft/yii2-admin) and has been customised to work with RBAC. Great work mdmsoft!
+
 Documentation
 -------------
 > **Important: If you install version 3.x, please see [this readme](https://github.com/toir427/yii2-admin/blob/3.master/README.md#upgrade-from-2x).**
